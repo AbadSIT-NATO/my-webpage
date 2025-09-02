@@ -7,6 +7,7 @@
     <title>My First Webpage</title>
   </head>
  <body>
+  
   <h1>Welcome to Renato Abad's Portfolio</h1>
   <h2>About me</h2>
   <p>Hi! I'm a student at University of Baguio studying BSIT. I'm excited to learn web development!</p>
@@ -19,5 +20,21 @@
   <p>I am <strong>passionate</strong> about learning new technologies.</p>
 <p>My favorite quote is: <em>"The only way to do great work is to love what you do."</em></p>
 <p>You can contact me at <mark>20197043@s.ubaguio.edu</mark></p>
+<h2>My Favorite Subjects</h2>
+<ul>
+  <li>Programming</li>
+  <li>Mathematics</li>
+  <li>Troubleshooting</li>
+</ul>
+
+<h2>My Daily Schedule</h2>
+<ol>
+  <li>Wake up at 4:00 AM</li>
+  <li>Attend morning classes</li>
+  <li>Study in the library</li>
+  <li>Exercise or relax</li>
+  <li>Evening study time</li>
+</ol>
+
 </body>
 
