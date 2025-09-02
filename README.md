@@ -15,6 +15,6 @@
   <p>I enjoy doing boxing and playing guitar.</p>
   
   <h3>Academic Goals</h3>
-  <p>This semester, I hope to become.</p>
+  <p>This semester, I hope to become professional in my course.</p>
 </body>
 
