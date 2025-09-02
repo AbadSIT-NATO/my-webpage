@@ -26,17 +26,46 @@
         </section>
         <section id="interests">
             <h2>My Interests</h2>
-            <p>I enjoy programming, learning new technologies, and playing chess.</p>
+            <p>I enjoy programming, learning new technologies, and playing video games.</p>
         </section>
+        <section> 
     </main>
     <footer>
         <p>&copy; 2025 Renato Abad. All rights reserved.</p>
     </footer>
+<section>
+    <h2>My Class Schedule</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Monday</th>
+                <th>Wednesday</th>
+                <th>Friday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>8:00 AM</td>
+                <td>PROGIT1</td>
+                <td>INTRCS1</td>
+                <td>HUMCOM1</td>
+            </tr>
+            <tr>
+                <td>10:00 AM</td>
+                <td>MATHEMATICS1</td>
+                <td>PROGIT1</td>
+                <td>TROUBLESHOOTING</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
 </body>
-p>
+
 
 <h2>My Photo</h2>
-<img src="images/Untitled design.jpg" alt="Photo of Manny Pacquiao" width="200" height="200">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Pacquiao_ring_entrance.jpg/250px-Pacquiao_ring_entrance.jpg" alt="Photo of Renato Abad" width="200" height="200">
 
 <h2>My Favorite Place</h2>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/View_of_Mount_Fuji_from_%C5%8Cwakudani_20211202.jpg/330px-View_of_Mount_Fuji_from_%C5%8Cwakudani_20211202.jpg"
