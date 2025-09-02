@@ -62,7 +62,25 @@
 </section>
 
 </body>
-
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form action="#" method="POST">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+        <label for="year">Academic Year:</label><br>
+        <select id="year" name="year">
+            <option value="freshman">Freshman</option>
+            <option value="sophomore">Sophomore</option>
+            <option value="junior">Junior</option>
+            <option value="senior">Senior</option>
+        </select><br><br>
+        <input type="submit" value="Send Message">
+    </form>
+</section>
 
 <h2>My Photo</h2>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Pacquiao_ring_entrance.jpg/250px-Pacquiao_ring_entrance.jpg" alt="Photo of Renato Abad" width="200" height="200">
