@@ -20,6 +20,14 @@
         </nav>
     </header>
     <main>
+    <section>
+    <h2>Fun Facts About Me</h2>
+    <ul>
+        <li>I can <strong>play</strong> guitar</li>
+        <li>My favorite food is <em>banana</em></li>
+        <li>I've visited <mark>15</mark> different countries</li>
+    </ul>
+</section>
         <section id="about">
             <h2>About Me</h2>
             <p>Hi! I'm a student at [Your University] studying [Your Major]. I'm excited to learn web development!</p>
@@ -65,13 +73,13 @@
 <section id="contact">
     <h2>Contact Me</h2>
     <form action="#" method="POST">
-        <label for="name">Name:</label><br>
+        <label for="name">Name: Renato Abad</label><br>
         <input type="text" id="name" name="name" required><br><br>
-        <label for="email">Email:</label><br>
+        <label for="email">Email:20197043@s.ubaguio.edu</label><br>
         <input type="email" id="email" name="email" required><br><br>
         <label for="message">Message:</label><br>
         <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
-        <label for="year">Academic Year:</label><br>
+        <label for="year">Academic Year:2025</label><br>
         <select id="year" name="year">
             <option value="freshman">Freshman</option>
             <option value="sophomore">Sophomore</option>
