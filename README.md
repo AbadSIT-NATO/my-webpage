@@ -77,7 +77,7 @@
         <input type="text" id="name" name="name" required><br><br>
         <label for="email">Email:20197043@s.ubaguio.edu</label><br>
         <input type="email" id="email" name="email" required><br><br>
-        <label for="message">Message:</label><br>
+        <label for="message">Message: I love you</label><br>
         <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
         <label for="year">Academic Year:2025</label><br>
         <select id="year" name="year">
