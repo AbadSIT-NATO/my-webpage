@@ -1,101 +1,94 @@
 # my-webpage
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Webpage</title>
-  </head>
- <body>
-  
-  <body>
-    <header>
-        <h1>Welcome to Renato Abad's Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#interests">Interests</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
+    <meta name="description" content="Personal portfolio of [Your Name]">
+    <title>Abad Renato's Portfolio</title>
+    <style>
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Abad Renato's Portfolio</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#interests">Interests</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="https://scontent.fmnl15-1.fna.fbcdn.net/v/t1.6435-9/123503753_10159010331378851_6522695115178497928_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE1-VG7MQl_HKFyH-LkYe4i4hCJNX3-fGLiEIk1ff58Yp8-MU3WsAQotbjK8GU0Lt7o4Md3cjA0-BWVyKyfnnkt&_nc_ohc=G-YX4Q3WCasQ7kNvwHXXh2K&_nc_oc=Admipj-QhfAvS-85oZBUaTmltu4h50flqkQooytbF8r5GLXKxstEwdi9AYUHWGmKIxw&_nc_zt=23&_nc_ht=scontent.fmnl15-1.fna&_nc_gid=OHdqPARKoqGHYuiknhTlgw&oh=00_AfUeYYKQ6J0q70pw3VAAKSYeWCoDs5uJ-E0p6ie-34t7Hw&oe=68DDFF96" alt="Photo of my family" width="200" height="200">
+        <p>Hello! I'm Renato Abad, a passionate student at University of Baguio studying BSIT. I love web development and technology. I'm excited to share my journey with you through this portfolio!</p>
+    </section>
+    <section id="interests">
+        <h2>My Interests</h2>
+        <ul>
+            <li>I enjoy playing video games.</li>
+            <li>I'm passionate about coding and learning new technologies.</li>
+            <li>I love doing boxing for fun.</li>
+        </ul>
+    </section>
     <section>
-    <h2>Fun Facts About Me</h2>
-    <ul>
-        <li>I can <strong>play</strong> guitar</li>
-        <li>My favorite food is <em>banana</em></li>
-        <li>I've visited <mark>15</mark> different countries</li>
-    </ul>
-</section>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Hi! I'm a student at [Your University] studying [Your Major]. I'm excited to learn web development!</p>
-        </section>
-        <section id="interests">
-            <h2>My Interests</h2>
-            <p>I enjoy programming, learning new technologies, and playing video games.</p>
-        </section>
-        <section> 
-    </main>
-    <footer>
-        <p>&copy; 2025 Renato Abad. All rights reserved.</p>
-    </footer>
-<section>
-    <h2>My Class Schedule</h2>
-    <table border="1">
-        <thead>
-            <tr>
-                <th>Time</th>
-                <th>Monday</th>
-                <th>Wednesday</th>
-                <th>Friday</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>8:00 AM</td>
-                <td>PROGIT1</td>
-                <td>INTRCS1</td>
-                <td>HUMCOM1</td>
-            </tr>
-            <tr>
-                <td>10:00 AM</td>
-                <td>MATHEMATICS1</td>
-                <td>PROGIT1</td>
-                <td>TROUBLESHOOTING</td>
-            </tr>
-        </tbody>
-    </table>
-</section>
+        <h2>My Class Schedule</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Monday</th>
+                    <th>Wednesday</th>
+                    <th>Friday</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>8:00 AM</td>
+                    <td>PROGIT1</td>
+                    <td>MATHMW1</td>
+                    <td>PROGIT1</td>
+                </tr>
+                <tr>
+                    <td>10:00 AM</td>
+                    <td>INTRCS1</td>
+                    <td>PROGIT1</td>
+                    <td>INTRCS1</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name: ABAD, RENATO </label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email: 20197043@s.ubaguio.edu </label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message: I love you</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+            <label for="year">Academic Year: 2025</label><br>
+            <select id="year" name="year">
+                <option value="freshman">Freshman</option>
+                <option value="sophomore">Sophomore</option>
+                <option value="junior">Junior</option>
+                <option value="senior">Senior</option>
+            </select><br><br>
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Renato Abad. All rights reserved.</p>
+</footer>
 
 </body>
-<section id="contact">
-    <h2>Contact Me</h2>
-    <form action="#" method="POST">
-        <label for="name">Name: Renato Abad</label><br>
-        <input type="text" id="name" name="name" required><br><br>
-        <label for="email">Email:20197043@s.ubaguio.edu</label><br>
-        <input type="email" id="email" name="email" required><br><br>
-        <label for="message">Message: I love you</label><br>
-        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
-        <label for="year">Academic Year:2025</label><br>
-        <select id="year" name="year">
-            <option value="freshman">Freshman</option>
-            <option value="sophomore">Sophomore</option>
-            <option value="junior">Junior</option>
-            <option value="senior">Senior</option>
-        </select><br><br>
-        <input type="submit" value="Send Message">
-    </form>
-</section>
-
-<h2>My Photo</h2>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Pacquiao_ring_entrance.jpg/250px-Pacquiao_ring_entrance.jpg" alt="Photo of Renato Abad" width="200" height="200">
-
-<h2>My Favorite Place</h2>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/View_of_Mount_Fuji_from_%C5%8Cwakudani_20211202.jpg/330px-View_of_Mount_Fuji_from_%C5%8Cwakudani_20211202.jpg"
-     alt="A beautiful landscape" width="300" height="200">
+</html>
 
 
 </body>
