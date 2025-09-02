@@ -41,10 +41,10 @@
 <p>Check out this helpful resource: <a href="https://www.w3schools.com/html/" target="_blank">W3Schools HTML Tutorial</a></p>
 
 <h2>My Photo</h2>
-<img src="![Alt text](image.png)" alt="Photo of Manny Pacquiao" width="200" height="200">
+<img src="C:\Users\abad_r\Downloads\Untitled design.jpg" alt="Photo of Renato Abad" width="200" height="200">
 
 <h2>My Favorite Place</h2>
-<img src="![Alt text](image-1.png)" 
+<img src="C:\Users\abad_r\Downloads\download (1).jpg"
      alt="A beautiful landscape" width="300" height="200">
 
 
